@@ -1,3 +1,4 @@
+word=input('enter the word: ')
 status = False
 for i in word:
     if i in "aeiouAEIOU":
