@@ -1,6 +1,6 @@
 a=float(input('enter number A: '))
 b=float(input('enter number B: '))
-if abs(a-b)<=0.001:
+if round(abs(a-b),3)<=0.001:
     print('close')
 else:
     print("not close")
