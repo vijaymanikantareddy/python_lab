@@ -7,15 +7,7 @@ if status == True:
     print('word contains vowels')
 else: 
     print('word does not contains vowels')
-word=input('enter the word: ')
-status = False
-for i in word:
-    if i in "aeiouAEIOU":
-        status = True
-if status == True:
-    print('word contains vowels')
-else: 
-    print('word does not contains vowels')
+
     
     
     
